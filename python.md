@@ -27,5 +27,13 @@ Important to remember that data types sometimes need to be forced into being a p
 | <= | True if left operand is less than or equal to the right| x <= y |
 
 
-## 3.
+## 3. Functions
+
+These are blocks of code that do something you may want to call on again. Generally functions should do one thing, and do it well.
+
+Important part of DRY principle DON'T REPEAT YOURSELF. If you can put something into a function and re-use it, you absolutely should.
+
+Syntax for creating a function is `def name():`. The functions can also be put into classes, where they are called methods.
+
+Functions can be used to take in 'arguments', that they then manipulate and 
 
